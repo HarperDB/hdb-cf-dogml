@@ -1,0 +1,83 @@
+a {
+  color: $color-lightpurple !important;
+  cursor: pointer !important;
+
+  &:hover {
+    color: $color-lightpurple !important;
+  }
+}
+
+ul {
+  padding-inline-start: 16px;
+
+  li {
+    margin-bottom: 6px;
+  }
+}
+
+.full-height {
+  height: calc(100vh - 230px) !important;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.no-background {
+  background: none !important;
+}
+
+.error {
+  border-color: $color-danger !important;
+}
+
+.scrollable {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+hr {
+  background-color: $lighter-grey-overlay; /* Modern Browsers */
+  border: 0 none;
+  /* Set the hr color */
+  color: $lighter-grey-overlay; /* old IE */
+  height: 1px !important;
+  overflow: hidden;
+
+  &.white {
+    background-color: $light-white-overlay; /* Modern Browsers */
+    color: $light-white-overlay; /* old IE */
+  }
+}
+
+.version {
+  bottom: 15px;
+  color: $color-lightgrey;
+  font-size: $font-size-small;
+  font-weight: $font-weight-bold;
+  left: 30px;
+  position: fixed;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $light-grey-overlay;
+  border: 2px solid $color-white;
+  border-radius: 5px;
+}

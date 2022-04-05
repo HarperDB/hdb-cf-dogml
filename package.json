@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "A HarperDB Custom Function project for training a model and classifying inbound images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarperDB/hdb-cf-dogml.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarperDB/hdb-cf-dogml/issues"
+  },
+  "homepage": "https://github.com/HarperDB/hdb-cf-dogml#readme",
+  "dependencies": {
+    "fastify-static": "^4.6.1",
+    "pm2": "^5.2.0",
+    "tar-fs": "^2.1.1",
+    "unique-names-generator": "^4.7.1",
+    "uuid": "^8.3.2"
+  }
+}

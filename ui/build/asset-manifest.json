@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dogml/ui/static/css/main.7dcf9707.css",
+    "main.js": "/dogml/ui/static/js/main.76e6f82a.js",
+    "index.html": "/dogml/ui/index.html",
+    "main.7dcf9707.css.map": "/dogml/ui/static/css/main.7dcf9707.css.map",
+    "main.76e6f82a.js.map": "/dogml/ui/static/js/main.76e6f82a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dcf9707.css",
+    "static/js/main.76e6f82a.js"
+  ]
+}

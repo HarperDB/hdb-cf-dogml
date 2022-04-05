@@ -1,0 +1,21 @@
+body {
+  background: $color-purple;
+  min-width: $min-width;
+  overflow-x: hidden;
+  position: relative;
+
+  #app {
+    min-width: $min-width;
+
+    #app-container {
+      height: calc(100vh - 100px);
+      margin-top: 100px;
+      min-width: $min-width;
+      padding: 0 2rem;
+
+      @media screen and (max-width: 991px) {
+        padding: 0 1rem;
+      }
+    }
+  }
+}
